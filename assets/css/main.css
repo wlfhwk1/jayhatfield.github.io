@@ -3619,12 +3619,18 @@ input, select, textarea {
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
-		overflow: hidden;
+		overflow: ;
 		padding: 0 2rem 0 0;
-		position: relative;
+		position: fixed;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
+		max-width: ;
 		z-index: 2;
+		
+		/*position:fixed;
+		width: 100%;
+		top: 0;*/
+		
+}
 	}
 
 		#nav ul.divided li {
@@ -3698,6 +3704,8 @@ input, select, textarea {
 			margin-bottom: 0;
 			padding-left: 0;
 			text-transform: uppercase;
+			/*width: 100%;
+			top: 0;*/
 		}
 
 			#nav ul.links li {
@@ -3752,7 +3760,12 @@ input, select, textarea {
 			}
 
 		}
-
+/*.fixed{
+	position:fixed;
+	width: 100%;
+	top: 0;
+	z-idex: 2;*/
+}
 /* Main */
 
 	#main {
